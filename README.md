@@ -7,6 +7,6 @@ para permitir el uso de postgres
 -hay un tutorial de laravel 4 en codehero.
 -Datos base de datos:
   database:AdventureWorksDW2014
-  username:kdd
+  username:user_kdd
   passswrod:kddpass
 
