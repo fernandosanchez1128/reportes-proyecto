@@ -207,7 +207,7 @@
 <script src="{{url()}}/assets/bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{url()    }}/assets/dist/js/sb-admin-2.js"></script>
+<script src="{{url()}}/assets/dist/js/sb-admin-2.js"></script>
 @show
 </body>
 
