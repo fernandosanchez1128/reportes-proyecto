@@ -23,5 +23,6 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
-
+Route::get('promociones', 'Controlador_reportes_nelson@ventas_por_promocion');
+Route::get('productos', 'Controlador_reportes_nelson@ventas_por_producto');
 
