@@ -23,6 +23,9 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
+Route::get('promociones_vendedores', 'Controlador_reportes@mejores_promociones_vendedores');
 Route::get('promociones', 'Controlador_reportes@mejores_promociones_online');
+Route::get('monedas_online', 'Controlador_reportes@monedas_online');
+
 
 
