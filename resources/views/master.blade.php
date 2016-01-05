@@ -208,6 +208,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{url()}}/assets/dist/js/sb-admin-2.js"></script>
+
 @show
 </body>
 

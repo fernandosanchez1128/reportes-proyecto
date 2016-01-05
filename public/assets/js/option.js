@@ -2,9 +2,9 @@
  * Created by fernando on 14/12/2015.
  */
 $(document).ready(function () {
-    $('#id_ajax').change(function () {
+    $('#graph_promotion').click(function () {
         $.get("promociones",
-            {option: $(this).val()}, //datos enviados
+            {inicio: $(inicio).val(),fin: $(fin).val()}, //datos enviados
             function (data) {          //datos recibidos
                 $("#chartdiv").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
@@ -68,8 +68,14 @@ $(document).ready(function () {
 
                     target[property] = this.value;
                     chart.validateNow();
+
                 });
 
-            });
+
+            })
+        .fail(function() {
+                $("#chartdiv").empty();
+                $("#chartdiv").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico");
+        })
     });
 });
