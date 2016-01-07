@@ -11,12 +11,22 @@ use Illuminate\Support\Facades\DB;
 class Controlador_reportes_nelson extends Controller{
     public function ventas_por_promocion(Request $request)
     {
-        $promotion = DB::query('select "DimPromotion"."SpanishPromotionName", count ("FactInternetSales"."PromotionKey")
-	from "FactInternetSales" natural join "DimPromotion","DimDate"
-		where "FactInternetSales"."PromotionKey" !=1  and "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
-		  and "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
-		group by ("DimPromotion"."SpanishPromotionName")
-		order by  count ("FactInternetSales"."PromotionKey") desc');
+        $inicio = $request::input('inicio') ;
+        $fin = $request::input('fin') ;
+        $promotion[1] = DB::select("select \"DimPromotion\".\"SpanishPromotionName\", count (\"FactInternetSales\".\"PromotionKey\")
+	    from \"FactInternetSales\" natural join \"DimPromotion\", \"DimDate\"
+		where \"FactInternetSales\".\"PromotionKey\" != 1 and \"FactInternetSales\".\"OrderDateKey\" = \"DimDate\".\"DateKey\"
+		and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and  '$fin'
+		group by (\"DimPromotion\".\"SpanishPromotionName\")
+        order by  count (\"FactInternetSales\".\"PromotionKey\")  desc");
+
+        $promotion[2] = DB::select("select \"DimProduct\".\"EnglishProductName\", count (\"FactInternetSales\".\"ProductKey\")
+	    from \"FactInternetSales\" natural join \"DimProduct\",\"DimDate\"
+	    where  \"FactInternetSales\".\"OrderDateKey\"=\"DimDate\".\"DateKey\"
+	    and \"FullDateAlternateKey\" between '$inicio' and  '$fin'
+	    group by (\"DimProduct\".\"EnglishProductName\")
+	    order by  count (\"FactInternetSales\".\"ProductKey\") desc");
+
         return response()->json($promotion);
     }
 
@@ -25,7 +35,7 @@ class Controlador_reportes_nelson extends Controller{
         $product = DB::query('select "DimProduct"."EnglishProductName", count ("FactInternetSales"."ProductKey")
 	from "FactInternetSales" natural join "DimProduct","DimDate"
 	where  "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
-	and "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
+	and "FullDateAlternateKey" between 2005-01-01 and  2014-12-31
 	group by ("DimProduct"."EnglishProductName")
 	order by  count ("FactInternetSales"."ProductKey") desc');
         return response()->json($product);
@@ -128,7 +138,7 @@ class Controlador_reportes_nelson extends Controller{
     {
         $product = DB::query('select "FactCallCenter"."WageType", count ("FactCallCenter"."DateKey")
 	from "FactCallCenter" natural join "DimDate"
-	where "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
+	where "FullDateAlternateKey" between 2005-01-01 and  2014-12-31
 	group by ("FactCallCenter"."WageType")
 	order by  count ("FactCallCenter"."DateKey")');
         return response()->json($product);
