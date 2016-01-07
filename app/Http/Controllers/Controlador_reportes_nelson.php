@@ -12,19 +12,22 @@ class Controlador_reportes_nelson extends Controller{
     public function ventas_por_promocion(Request $request)
     {
         $promotion = DB::query('select "DimPromotion"."SpanishPromotionName", count ("FactInternetSales"."PromotionKey")
-	                          from "FactInternetSales" natural join "DimPromotion"
-		                      where "FactInternetSales"."PromotionKey" !=1
-		                      group by ("DimPromotion"."SpanishPromotionName")
-		                      order by  count ("FactInternetSales"."PromotionKey") desc');
+	from "FactInternetSales" natural join "DimPromotion","DimDate"
+		where "FactInternetSales"."PromotionKey" !=1  and "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
+		  and "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
+		group by ("DimPromotion"."SpanishPromotionName")
+		order by  count ("FactInternetSales"."PromotionKey") desc');
         return response()->json($promotion);
     }
 
     public function ventas_por_producto(Request $request)
     {
         $product = DB::query('select "DimProduct"."EnglishProductName", count ("FactInternetSales"."ProductKey")
-                                    from "FactInternetSales" natural join "DimProduct"
-	                                group by ("DimProduct"."EnglishProductName")
-	                                order by  count ("FactInternetSales"."ProductKey") desc');
+	from "FactInternetSales" natural join "DimProduct","DimDate"
+	where  "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
+	and "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
+	group by ("DimProduct"."EnglishProductName")
+	order by  count ("FactInternetSales"."ProductKey") desc');
         return response()->json($product);
     }
 //Ventas por ano agrupadas
@@ -116,7 +119,7 @@ class Controlador_reportes_nelson extends Controller{
                                 from "FactInternetSales" natural join "DimProduct","DimDate"
                                 where "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
                                 group by ("DimProduct"."EnglishProductName"), ("DimDate"."CalendarYear")
-                                order by  "DimProduct"."EnglishProductName";');
+                                order by  "DimProduct"."EnglishProductName"');
         return response()->json($product);
     }
 
@@ -124,9 +127,10 @@ class Controlador_reportes_nelson extends Controller{
     public function callcenter_laboral_vs_festivos(Request $request)
     {
         $product = DB::query('select "FactCallCenter"."WageType", count ("FactCallCenter"."DateKey")
-                                from "FactCallCenter" natural join "DimDate"
-                                group by ("FactCallCenter"."WageType")
-                                order by  count ("FactCallCenter"."DateKey");');
+	from "FactCallCenter" natural join "DimDate"
+	where "FullDateAlternateKey" between \'2005-01-01\' and  \'2014-12-31\'
+	group by ("FactCallCenter"."WageType")
+	order by  count ("FactCallCenter"."DateKey")');
         return response()->json($product);
     }
 
