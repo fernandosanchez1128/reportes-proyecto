@@ -75,7 +75,7 @@ $(document).ready(function () {
             })
         .fail(function() {
                 $("#chartdiv").empty();
-                $("#chartdiv").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico");
+                $("#chartdiv").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
         })
     });
 });

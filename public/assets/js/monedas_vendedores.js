@@ -2,12 +2,12 @@
  * Created by fernando on 14/12/2015.
  */
 $(document).ready(function () {
-    $('#graph_moneda').click(function () {
-        $.get("monedas_online",
-            {inicio: $(inicio_mone).val(),fin: $(fin_mone).val()}, //datos enviados
+    $('#graph_moneda2').click(function () {
+        $.get("monedas_vendedores",
+            {inicio: $(inicio_mone2).val(),fin: $(fin_mone2).val()}, //datos enviados
             function (data) {          //datos recibidos
-                $("#chart_monedas").empty();
-                var chart = AmCharts.makeChart("chart_monedas", {
+                $("#chart_monedas2").empty();
+                var chart = AmCharts.makeChart("chart_monedas2", {
                     "type": "pie",
                     "theme": "light",
                     "innerRadius": "40%",
@@ -30,8 +30,8 @@ $(document).ready(function () {
 
             })
         .fail(function() {
-                $("#chart_monedas").empty();
-                $("#chart_monedas").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
+                $("#chart_monedas2").empty();
+                $("#chart_monedas2").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
         })
     });
 });

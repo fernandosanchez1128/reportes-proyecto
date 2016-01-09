@@ -4,7 +4,7 @@
 $(document).ready(function () {
     $('#graph_promotion2').click(function () {
         $.get("promociones_vendedores",
-            {inicio: $(inicio).val(),fin: $(fin).val()}, //datos enviados
+            {inicio: $(inicio_resell).val(),fin: $(fin_resell).val()}, //datos enviados
             function (data) {          //datos recibidos
                 $("#chartdiv2").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
@@ -74,8 +74,8 @@ $(document).ready(function () {
 
             })
         .fail(function() {
-                $("#chartdiv").empty();
-                $("#chartdiv").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico");
+                $("#chartdiv2").empty();
+                $("#chartdiv2").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
         })
     });
 });

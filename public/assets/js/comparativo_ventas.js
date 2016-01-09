@@ -2,20 +2,22 @@
  * Created by fernando on 14/12/2015.
  */
 $(document).ready(function () {
-    $('#graph_moneda').click(function () {
-        $.get("monedas_online",
-            {inicio: $(inicio_mone).val(),fin: $(fin_mone).val()}, //datos enviados
+    $('#graph_comp').click(function () {
+        $.get("comparativo_ventas",
+            {inicio: $(inicio_comp).val(),fin: $(fin_comp).val()}, //datos enviados
             function (data) {          //datos recibidos
-                $("#chart_monedas").empty();
-                var chart = AmCharts.makeChart("chart_monedas", {
+                $("#chart_comp").empty();
+                data[0].name="ventas online"
+                data[1].name="ventas vendedores"
+                var chart = AmCharts.makeChart("chart_comp", {
                     "type": "pie",
                     "theme": "light",
                     "innerRadius": "40%",
                     "gradientRatio": [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, 0, 0.1, 0.2, 0.1, 0, -0.2, -0.5],
                     "dataProvider": data,
                     "balloonText": "[[value]]",
-                    "valueField": "count",
-                    "titleField": "CurrencyName",
+                    "valueField": "sum",
+                    "titleField": "name",
                     "balloon": {
                         "drop": true,
                         "adjustBorderColor": false,
@@ -30,8 +32,8 @@ $(document).ready(function () {
 
             })
         .fail(function() {
-                $("#chart_monedas").empty();
-                $("#chart_monedas").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
+                $("#chart_comp").empty();
+                $("#chart_comp").html(" <br> <br> <br> <br> <br>   <p align= 'center'>  error cargando el grafico</p>");
         })
     });
 });
