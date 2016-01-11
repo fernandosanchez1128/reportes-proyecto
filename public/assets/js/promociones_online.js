@@ -70,8 +70,6 @@ $(document).ready(function () {
                     chart.validateNow();
 
                 });
-
-
             })
         .fail(function() {
                 $("#chartdiv").empty();

@@ -28,6 +28,8 @@ Route::get('promociones', 'Controlador_reportes@mejores_promociones_online');
 Route::get('monedas_online', 'Controlador_reportes@monedas_online');
 Route::get('monedas_vendedores', 'Controlador_reportes@monedas_vendedores');
 Route::get('comparativo_ventas', 'Controlador_reportes@comparativo_ventas');
+Route::get('movimiento_cuentas', 'Controlador_reportes@movimiento_cuentas');
+Route::get('movimiento_dptos', 'Controlador_reportes@movimiento_dptos');
 
 
 

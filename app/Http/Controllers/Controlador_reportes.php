@@ -15,8 +15,11 @@ class Controlador_reportes extends Controller
 {
     public  function mejores_promociones_online (Request $request)
     {
-        $inicio = $request::input('inicio') ;
+        $inicio = $request::input('inicio')."-01" ;
         $fin = $request::input('fin') ;
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
         $promotions = DB::select("select \"DimPromotion\".\"SpanishPromotionName\",
         count (\"FactInternetSales\".\"PromotionKey\")  from \"FactInternetSales\" natural join \"DimPromotion\", \"DimDate\"
         where \"FactInternetSales\".\"PromotionKey\" != 1 and \"DimDate\".\"DateKey\" = \"FactInternetSales\".\"OrderDateKey\"
@@ -29,8 +32,11 @@ class Controlador_reportes extends Controller
 
     public  function mejores_promociones_vendedores (Request $request)
     {
-        $inicio = $request::input('inicio') ;
+        $inicio = $request::input('inicio')."-01" ;
         $fin = $request::input('fin') ;
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
         $promotions = DB::select("select \"DimPromotion\".\"SpanishPromotionName\",
         count (\"FactResellerSales\".\"PromotionKey\")  from \"FactResellerSales\" natural join \"DimPromotion\", \"DimDate\"
         where \"FactResellerSales\".\"PromotionKey\" != 1 and \"DimDate\".\"DateKey\" = \"FactResellerSales\".\"OrderDateKey\"
@@ -43,68 +49,97 @@ class Controlador_reportes extends Controller
 
     public  function monedas_online (Request $request)
     {
-        $inicio = $request::input('inicio') ;
+        $inicio = $request::input('inicio')."-01" ;
         $fin = $request::input('fin') ;
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
         $monedas = DB::select("select \"DimCurrency\".\"CurrencyName\",
         count (\"FactInternetSales\".\"CurrencyKey\")  from \"FactInternetSales\" natural join \"DimCurrency\", \"DimDate\"
         where   \"DimDate\".\"DateKey\" = \"FactInternetSales\".\"OrderDateKey\"
         and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and  '$fin'
         group by (\"DimCurrency\".\"CurrencyName\")
-        order by  count (\"FactInternetSales\".\"CurrencyKey\")  desc ");
+        order by  count (\"FactInternetSales\".\"CurrencyKey\")  desc limit 7");
 
         return response()->json($monedas);
     }
 
     public  function monedas_vendedores (Request $request)
     {
-        $inicio = $request::input('inicio') ;
+        $inicio = $request::input('inicio')."-01" ;
         $fin = $request::input('fin') ;
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
         $monedas = DB::select("select \"DimCurrency\".\"CurrencyName\",
         count (\"FactResellerSales\".\"CurrencyKey\")  from \"FactResellerSales\" natural join \"DimCurrency\", \"DimDate\"
         where   \"DimDate\".\"DateKey\" = \"FactResellerSales\".\"OrderDateKey\"
         and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and  '$fin'
         group by (\"DimCurrency\".\"CurrencyName\")
-        order by  count (\"FactResellerSales\".\"CurrencyKey\")  desc");
+        order by  count (\"FactResellerSales\".\"CurrencyKey\")  desc limit 7");
 
         return response()->json($monedas);
     }
 
-    public  function comparativo_ventas2 (Request $request)
-    {
-//        $inicio = $request::input('inicio')."-01" ;
-//        $fin = $request::input('fin') ;
-//        $fecha2 = explode ("-",$fin);
-//        $ventas = DB::select("select  sum (\"FactInternetSales\".\"ExtendedAmount\")  from \"FactInternetSales\", \"DimDate\"
-//        where   \"DimDate\".\"DateKey\" = \"FactInternetSales\".\"OrderDateKey\"
-//        and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and '$fin'
-//        Union
-//        select  sum (\"FactResellerSales\".\"ExtendedAmount\")  from \"FactResellerSales\", \"DimDate\"
-//        where   \"DimDate\".\"DateKey\" = \"FactResellerSales\".\"OrderDateKey\"
-//        and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and '$fin'");
-//
-//        return response()->json($ventas);
-    }
+
 
     function getUltimoDiaMes($elAnio,$elMes) {
         return date("d",(mktime(0,0,0,$elMes+1,1,$elAnio)-1));
     }
     public  function comparativo_ventas (Request $request)
     {
+        $year = $request::input('inicio');
 
+
+        $ventas = DB::select("select  \"DimDate\".\"MonthNumberOfYear\" as month, sum (\"FactResellerSales\".\"SalesAmount\") as ventas, 'vendedores' as tipo
+        from \"FactResellerSales\", \"DimDate\"
+        where   \"DimDate\".\"DateKey\" = \"FactResellerSales\".\"OrderDateKey\"
+        and \"DimDate\".\"CalendarYear\" = '$year'
+        group by  month
+	Union
+	select \"DimDate\".\"MonthNumberOfYear\" as month, sum (\"FactInternetSales\".\"SalesAmount\") as ventas,'on-line' as  tipo from \"FactInternetSales\", \"DimDate\"
+        where   \"DimDate\".\"DateKey\" = \"FactInternetSales\".\"OrderDateKey\"
+        and \"DimDate\".\"CalendarYear\" = '$year'
+        group by month
+
+       order by  month   ");
+
+        return response()->json($ventas);
+    }
+
+    public function movimiento_cuentas (Request $request)
+    {
         $inicio = $request::input('inicio')."-01" ;
         $fin = $request::input('fin') ;
         $fecha = explode ("-",$fin);
         $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
         $fin = $fin."-".$ultimo_dia;
-        $ventas = DB::select("select  sum (\"FactInternetSales\".\"ExtendedAmount\")  from \"FactInternetSales\", \"DimDate\"
-        where   \"DimDate\".\"DateKey\" = \"FactInternetSales\".\"OrderDateKey\"
-        and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and '$fin'
-        Union
-        select  sum (\"FactResellerSales\".\"ExtendedAmount\")  from \"FactResellerSales\", \"DimDate\"
-        where   \"DimDate\".\"DateKey\" = \"FactResellerSales\".\"OrderDateKey\"
-        and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and '$fin'");
+        $cuentas=  DB::select("select cuentas.\"AccountDescription\" as descripcion,
+        sum (abs (finanzas.\"Amount\")) as movimiento from
+        \"FactFinance\" as finanzas natural join \"DimAccount\" as cuentas
+        natural join \"DimDate\" as fecha
+        where  fecha.\"FullDateAlternateKey\" between '$inicio' and '$fin'
+        group by descripcion order by movimiento desc limit 7");
 
-        return response()->json($ventas);
+        return response()->json($cuentas);
     }
+
+    public function movimiento_dptos (Request $request)
+    {
+        $inicio = $request::input('inicio')."-01" ;
+        $fin = $request::input('fin') ;
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
+        $dptos=  DB::select("select departamento.\"DepartmentGroupName\" as nombre_dpto,
+        sum (abs (finanzas.\"Amount\")) as movimiento from
+        \"FactFinance\" as finanzas natural join
+        \"DimDepartmentGroup\" as departamento natural join \"DimDate\" as fecha
+        where  fecha.\"FullDateAlternateKey\" between '$inicio' and '$fin'
+        group by nombre_dpto order by movimiento desc limit 7");
+
+        return response()->json($dptos);
+    }
+
 
 }
