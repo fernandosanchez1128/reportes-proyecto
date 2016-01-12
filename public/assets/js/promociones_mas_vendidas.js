@@ -6,22 +6,33 @@ $(document).ready(function () {
     console.log("HOLA1");
     $('#graph_promocion').click(function () {
         console.log("HOLA2");
-        $.get("promociones",
+        console.log($(inicio_promo).val());
+        console.log(document.getElementById("comp_prom").checked);
+        $prom_check=document.getElementById("comp_prom").checked;
+        $prod_check=document.getElementById("comp_prod").checked;
+        $metodo_llamado="promociones";
+        $nom_columna="SpanishPromotionName";
+        if (!$prom_check){
+            $metodo_llamado="productos";
+            $nom_columna="EnglishProductName";
+        }
+        $.get($metodo_llamado,
 
-            {inicio: '01-01-2011',fin: '01-01-2014'}, //datos enviados
+            {inicio: $(inicio_promo).val(),fin: $(fin_promo).val()}, //datos enviados
 
             function (data) {
 
                 //datos recibidos
+
                 $("#chartdiv").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
                 var colors=    ['#0D8ECF','#FF6600', '#FCD202', '#B0DE09', '#2A0CD0', '#CD0D74', '#CC0000', '#00CC00', '#0000CC', '#DDDDDD', '#999999', '#333333', '#990000']
-                for (i = 0; i < data[1].length; i++) {
+                for (i = 0; i < data.length; i++) {
                     if (i >= colors.length) {
-                        data[1][i].color = colors[i-colors.length];
+                        data[i].color = colors[i-colors.length];
                     }
                     else {
-                        data[1][i].color = colors[i];
+                        data[i].color = colors[i];
                     }
                 }
                 console.log(data);
@@ -30,7 +41,7 @@ $(document).ready(function () {
                     "theme": "light",
                     "type": "serial",
                     "startDuration": 2,
-                    "dataProvider": data[1],
+                    "dataProvider": data,
                     "valueAxes": [{
                         "position": "left",
                         "axisAlpha":0,
@@ -52,7 +63,7 @@ $(document).ready(function () {
                         "cursorAlpha": 0,
                         "zoomable": false
                     },
-                    "categoryField": "SpanishPromotionName",
+                    "categoryField": $nom_columna,
                     "categoryAxis": {
                         "gridPosition": "start",
                         "axisAlpha":0,

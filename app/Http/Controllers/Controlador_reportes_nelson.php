@@ -13,31 +13,26 @@ class Controlador_reportes_nelson extends Controller{
     {
         $inicio = $request::input('inicio') ;
         $fin = $request::input('fin') ;
-        $promotion[1] = DB::select("select \"DimPromotion\".\"SpanishPromotionName\", count (\"FactInternetSales\".\"PromotionKey\")
+        $promotion = DB::select("select \"DimPromotion\".\"SpanishPromotionName\", count (\"FactInternetSales\".\"PromotionKey\")
 	    from \"FactInternetSales\" natural join \"DimPromotion\", \"DimDate\"
 		where \"FactInternetSales\".\"PromotionKey\" != 1 and \"FactInternetSales\".\"OrderDateKey\" = \"DimDate\".\"DateKey\"
 		and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and  '$fin'
 		group by (\"DimPromotion\".\"SpanishPromotionName\")
         order by  count (\"FactInternetSales\".\"PromotionKey\")  desc");
 
-        $promotion[2] = DB::select("select \"DimProduct\".\"EnglishProductName\", count (\"FactInternetSales\".\"ProductKey\")
-	    from \"FactInternetSales\" natural join \"DimProduct\",\"DimDate\"
-	    where  \"FactInternetSales\".\"OrderDateKey\"=\"DimDate\".\"DateKey\"
-	    and \"FullDateAlternateKey\" between '$inicio' and  '$fin'
-	    group by (\"DimProduct\".\"EnglishProductName\")
-	    order by  count (\"FactInternetSales\".\"ProductKey\") desc");
-
         return response()->json($promotion);
     }
 
     public function ventas_por_producto(Request $request)
     {
-        $product = DB::query('select "DimProduct"."EnglishProductName", count ("FactInternetSales"."ProductKey")
-	from "FactInternetSales" natural join "DimProduct","DimDate"
-	where  "FactInternetSales"."OrderDateKey"="DimDate"."DateKey"
-	and "FullDateAlternateKey" between 2005-01-01 and  2014-12-31
-	group by ("DimProduct"."EnglishProductName")
-	order by  count ("FactInternetSales"."ProductKey") desc');
+        $inicio = $request::input('inicio') ;
+        $fin = $request::input('fin') ;
+        $product = DB::select("select \"DimProduct\".\"EnglishProductName\", count (\"FactInternetSales\".\"ProductKey\")
+	from \"FactInternetSales\" natural join \"DimProduct\",\"DimDate\"
+	where  \"FactInternetSales\".\"OrderDateKey\"=\"DimDate\".\"DateKey\"
+	and \"FullDateAlternateKey\" between '$inicio' and '$fin'
+	group by (\"DimProduct\".\"EnglishProductName\")
+	order by  count (\"FactInternetSales\".\"ProductKey\") desc");
         return response()->json($product);
     }
 //Ventas por ano agrupadas
