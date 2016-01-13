@@ -3,7 +3,7 @@
  */
 $(document).ready(function () {
     $('#graph_promotion').click(function () {
-        $.get("promociones",
+        $.get("promociones2",
             {inicio: $(inicio).val(),fin: $(fin).val()}, //datos enviados
             function (data) {          //datos recibidos
                 $("#chartdiv").empty();

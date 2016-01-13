@@ -26,7 +26,6 @@ class Controlador_reportes extends Controller
         and \"DimDate\".\"FullDateAlternateKey\" between '$inicio' and  '$fin'
         group by (\"DimPromotion\".\"SpanishPromotionName\")
         order by  count (\"FactInternetSales\".\"PromotionKey\")  desc");
-
         return response()->json($promotions);
     }
 
