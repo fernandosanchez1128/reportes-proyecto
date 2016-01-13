@@ -16,6 +16,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/link', function () {
+    return view('welcome_brayan');
+});
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
@@ -31,6 +34,13 @@ Route::get('comparativo_ventas', 'Controlador_reportes@comparativo_ventas');
 Route::get('movimiento_cuentas', 'Controlador_reportes@movimiento_cuentas');
 Route::get('movimiento_dptos', 'Controlador_reportes@movimiento_dptos');
 Route::get('mvto_inventario', 'Controlador_reportes@mvto_inventario');
+
+Route::get('promocion_venta_volumen_online', 'Controlador_reportes_brayan@promocion_venta_volumen_online');
+Route::get('promocion_venta_volumen_reseller', 'Controlador_reportes_brayan@promocion_venta_volumen_reseller');
+Route::get('paises_reseller', 'Controlador_reportes_brayan@paises_reseller');
+Route::get('paises_online', 'Controlador_reportes_brayan@paises_online');
+Route::get('productos_no_venden', 'Controlador_reportes_brayan@productos_no_venden');
+Route::get('presupuesto_dpto', 'Controlador_reportes_brayan@presupuesto_dpto');
 
 
 Route::get('promociones', 'Controlador_reportes_nelson@ventas_por_promocion');
