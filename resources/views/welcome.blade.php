@@ -20,10 +20,10 @@
             </div>
             <div id="value" class = "collapse">
                 Desde
-                <input  class = "date_month" name="inicio" id="inicio" value = "2010-01" >
+                <input  class = "date_month" name="inicio_prom" id="inicio_prom" value = "2010-01" >
 
                 hasta
-                <input class = "date_month" name="fin" id="fin" value = "2014-01">
+                <input class = "date_month" name="fin_prom" id="fin_prom" value = "2014-01">
 
 
                 <button type="button" name = "graph_promotion" id = "graph_promotion" class="btn btn-primary" >Graficar</button>
@@ -57,10 +57,10 @@
             </div>
             <div id="value2" class = "collapse">
                 Desde
-                <input  class = "date_month" name="inicio_resell" id="inicio_resell" value = "2010-01" >
+                <input  class = "date_month" name="inicio_prom_resell" id="inicio_prom_resell" value = "2010-01" >
 
                 hasta
-                <input class = "date_month" name="fin_resell" id="fin_resell" value = "2014-01">
+                <input class = "date_month" name="fin_prom_resell" id="fin_prom_resell" value = "2014-01">
 
 
                 <button type="button" name = "graph_promotion2" id = "graph_promotion2" class="btn btn-primary" >Graficar</button>

@@ -4,7 +4,7 @@
 $(document).ready(function () {
     $('#graph_promotion2').click(function () {
         $.get("promociones_vendedores",
-            {inicio: $(inicio_resell).val(),fin: $(fin_resell).val()}, //datos enviados
+            {inicio: $(inicio_prom_resell).val(),fin: $(fin_prom_resell).val()}, //datos enviados
             function (data) {          //datos recibidos
                 $("#chartdiv2").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
