@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
     <!-- Bootstrap Core CSS -->
@@ -207,7 +205,8 @@
 <script src="{{url()}}/assets/bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{url()    }}/assets/dist/js/sb-admin-2.js"></script>
+<script src="{{url()}}/assets/dist/js/sb-admin-2.js"></script>
+
 @show
 </body>
 
