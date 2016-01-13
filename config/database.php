@@ -71,6 +71,7 @@ return [
             'password' => 'kddpass',
             'charset'  => 'utf8',
             'prefix'   => '',
+            'port'     => '5433',
             'schema'   => 'public',
         ],
 
