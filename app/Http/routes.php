@@ -23,5 +23,5 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
-Route::get('promocion', 'Controlador_reportes_brayan@promocion_venta_volumen');
+Route::get('promocion_venta_volumen', 'Controlador_reportes_brayan@promocion_venta_volumen');
 
