@@ -1,14 +1,527 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2df630b7-6840-4de2-acc0-f9cb1884f08c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/movimiento_cuentas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/movimiento_dptos.js" />
+    <list default="true" id="2df630b7-6840-4de2-acc0-f9cb1884f08c" name="Default" comment="reportes terminados">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/details_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/details_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/swf/flashExport.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/data/2500.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/Contributing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/syntax/Syntax Highlighter license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/api/addRemove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/add_row.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/data_sources/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/styling/alt_insert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/alt_pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/alwaysAsk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/api_in_init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/api_scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/arrays.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/arrays_custom_prop.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/arrays_subobjects.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/auto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/css/autoFill.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/autoFill.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/autoPrint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/blurable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/bootstrap-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.colVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.colVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.flash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.html5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/buttons.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/buttons.print.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/cell-border.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/cells.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/className.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/className.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/css/colReorder.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/col_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/col_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/collections-sub.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/collections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/integration/colreorder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/colreorder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/column-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/column-visibility.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/columnGroups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/columnPriority.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/column_render.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/columnsToggle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/integration/colvis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/colvis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/colvis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/comma-decimal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/common.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/compact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/compact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/complex_header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/complex_header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/consultas.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/copyi18n.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/copyi18n.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/counter_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/css_size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/custom-renderer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/custom_data_flat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/custom_data_property.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/custom_vars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/customisation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/dataTables.autoFill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/js/dataTables.autoFill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/dataTables.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/js/dataTables.buttons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/js/dataTables.colReorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/js/dataTables.colReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/js/dataTables.fixedHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/js/dataTables.keyTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/js/dataTables.keyTable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/js/dataTables.rowReorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/js/dataTables.rowReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/js/dataTables.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/js/dataTables.scroller.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/js/dataTables.select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/js/dataTables.select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/deep.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/defaults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/defaults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/deferRender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/defer_loading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/defer_render.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/disable-child-rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/display.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/dom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/data_sources/dom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/dom_multiple_elements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/dom_sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/dom_toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/dt_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/enable-disable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/api/enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/api/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/events_live.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/examples.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/export.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/filename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/filename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/fills.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/filter_only.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/fixedColumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/css/fixedColumns.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/fixedHeader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/css/fixedHeader.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/integration/fixedcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/integration/fixedheader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/flexible_width.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/focus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/styling/focusStyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/footer_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/foundation-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/api/get.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/api/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/header_footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/hidden.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/hidden_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/highlight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/horizontal-scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/hover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/html5-data-attributes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/html5-data-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/i18n.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/styling/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/ids-arrays.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/ids-objects.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/ids.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/immediateShow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/data_sources/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/integration/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/index_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/column-control/init-classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/media/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/jqueryUI.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/jqueryui-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/styling/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/data_sources/js_array.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/jsonp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/jsonp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/keyTable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/css/keyTable.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/keys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/language_file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/large_js_source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/left_right_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/length_menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/css/mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/display-types/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/multi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/multi_col_sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/multi_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/multi_filter_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/multiple_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/mvto_inventario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/mysql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/new_init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/no-classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/null_data_source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/object_data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/object_dom_read.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/objects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/objects.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/objects.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/objects_deep.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/objects_root_array.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/objects_subarrays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/objects_subarrays.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/offset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/initialisation/option.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/order-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/orthogonal-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/data/orthogonal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/outputFormat-function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/outputFormat-orthogonal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/pageLength.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/pdfImage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/pdfMessage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/pdfMessage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/pdfOpen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/pdfPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/pdfPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/pipeline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/plugins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/plugins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/postgres.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/predefined.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/range_filtering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/realtime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/regex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/reload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/reorderClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/integration/responsive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/responsive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/css/responsive.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/js/responsive.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/restore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/restrictedOrdering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/right-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/right_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/row-border.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/css/rowReorder.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/row_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/row_details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/row_details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/row_grouping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/rowspan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/scroll_x.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/scroll_xy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/scroll_y.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/scroll_y_dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/css/scroller.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/styling/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/api/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/css/select.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/select_row.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/select_rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/select_single_row.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/selector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/server-side-processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/styling/server-side-processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/server-side.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/server-side_processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/server_processing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/data_sources/server_side.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/integration/server_side.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/syntax/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/resources/syntax/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/show-hide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/show_hide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/ajax/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/AutoFill/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/print/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Select/examples/initialisation/single.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/size_fixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/size_fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/RowReorder/examples/styling/snapX.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/advanced_init/sort_direction_control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/sorting_auto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/plug-ins/sorting_manual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/sqlite.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/sqlserver.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/server_side/scripts/ssp.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/data/ssp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/stateSave.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/KeyTable/examples/initialisation/stateSave.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/state_save.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/ColReorder/examples/integration/state_save.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Scroller/examples/initialisation/state_saving.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/styling/stripe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/swfPath.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/table_sorting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/api/tabs_and_scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/api/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/column_visibility/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/flash/tsv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Buttons/examples/html5/tsv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedColumns/examples/initialisation/two_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/FixedHeader/examples/options/two_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/extensions/Responsive/examples/child-rows/whole-row-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/DataTables-1.10.10/examples/basic_init/zero_configuration.html" />
       <change type="MOVED" beforePath="C:\xampp\htdocs\reportes-proyecto\README.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/comparativo_ventas.js" afterPath="$PROJECT_DIR$/public/assets/js/comparativo_ventas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/promociones_online.js" afterPath="$PROJECT_DIR$/public/assets/js/promociones_online.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -36,61 +549,9 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04653938">
-              <caret line="275" column="54" selection-start-line="275" selection-start-column="54" selection-end-line="275" selection-end-column="54" />
+            <state vertical-scroll-proportion="1.4154412">
+              <caret line="336" column="30" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movimiento_dptos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/movimiento_dptos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-              <folding>
-                <marker date="1452486102328" expanded="true" signature="1055:1069" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="promociones_online.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_online.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controlador_reportes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.73077">
-              <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="77" />
-              <folding>
-                <element signature="e#125#139#0#PHP" expanded="true" />
-                <marker date="1452486668556" expanded="true" signature="603:1116" placeholder="select \&quot;Dim..FactInternetSales..." />
-                <marker date="1452486668556" expanded="true" signature="1518:2039" placeholder="select \&quot;Dim..FactResellerSales..." />
-                <marker date="1452486668556" expanded="true" signature="2422:2876" placeholder="select \&quot;Dim..FactInternetSales..." />
-                <marker date="1452486668556" expanded="true" signature="3260:3714" placeholder="select \&quot;Dim..FactResellerSales..." />
-                <marker date="1452486668556" expanded="true" signature="4027:4365" placeholder="select \&quot;Dim..." />
-                <marker date="1452486668556" expanded="true" signature="4367:4709" placeholder="select \&quot;Dim..." />
-                <marker date="1452486668556" expanded="true" signature="5094:5460" placeholder="select cuent..." />
-                <marker date="1452486668556" expanded="true" signature="5839:6224" placeholder="select depar..FactFinance..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,9 +590,11 @@
         <option value="$PROJECT_DIR$/public/assets/js/comparativo_ventas.js" />
         <option value="$PROJECT_DIR$/public/assets/js/promociones_online.js" />
         <option value="$PROJECT_DIR$/public/assets/js/movimiento_cuentas.js" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/assets/js/movimiento_dptos.js" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/mvto_invetario.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/mvto_inventario.js" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
@@ -211,6 +674,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reportes-proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reportes-proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -257,120 +734,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datapicker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -390,54 +753,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -503,15 +818,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -522,6 +837,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -558,6 +874,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reportes terminados" />
+    <option name="LAST_COMMIT_MESSAGE" value="reportes terminados" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -571,44 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -620,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="374" column="37" selection-start-line="374" selection-start-column="37" selection-end-line="374" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12768497">
@@ -838,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16229117">
           <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,18 +1160,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/comparativo_ventas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3414352">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,43 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27546296">
           <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <marker date="1452482567953" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_online.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.73077">
-          <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="77" />
-          <folding>
-            <element signature="e#125#139#0#PHP" expanded="true" />
-            <marker date="1452486668556" expanded="true" signature="603:1116" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452486668556" expanded="true" signature="1518:2039" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452486668556" expanded="true" signature="2422:2876" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452486668556" expanded="true" signature="3260:3714" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452486668556" expanded="true" signature="4027:4365" placeholder="select \&quot;Dim..." />
-            <marker date="1452486668556" expanded="true" signature="4367:4709" placeholder="select \&quot;Dim..." />
-            <marker date="1452486668556" expanded="true" signature="5094:5460" placeholder="select cuent..." />
-            <marker date="1452486668556" expanded="true" signature="5839:6224" placeholder="select depar..FactFinance..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,16 +1178,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_online.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/comparativo_ventas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019675925">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="156" column="43" selection-start-line="156" selection-start-column="43" selection-end-line="156" selection-end-column="43" />
           <folding>
-            <marker date="1452486102328" expanded="true" signature="1055:1069" placeholder="..." />
+            <element signature="e#125#139#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/mvto_inventario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04653938">
-          <caret line="275" column="54" selection-start-line="275" selection-start-column="54" selection-end-line="275" selection-end-column="54" />
+        <state vertical-scroll-proportion="1.4154412">
+          <caret line="336" column="30" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="30" />
           <folding />
         </state>
       </provider>

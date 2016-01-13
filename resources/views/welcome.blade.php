@@ -2,6 +2,7 @@
 
 @section ('css')
     <link href="{{url()}}/assets/css/datapicker/datapicker3.css" rel="stylesheet">
+    <link href="{{url()}}/assets/DataTables-1.10.10/media/css/jquery.dataTables.min.css" rel="stylesheet">
 
 @stop
 @section ('content')
@@ -163,7 +164,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#movimiento_cuentas">Cuentas con mas movimiento de dinero </a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#movimiento_cuentas">Cuentas con m&aacutes movimiento de dinero </a>
             </h2>
         </div>
 
@@ -202,7 +203,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#movimiento_departamentos">Departamentos que más mueven dinero </a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#movimiento_departamentos">Departamentos que m&aacutes mueven dinero </a>
             </h2>
         </div>
 
@@ -237,6 +238,29 @@
             </div>
         </div>
     </div>
+    <h1 class="page-header"> Inventario </h1>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#inventario">Productos sin movimientos en inventario </a>
+            </h2>
+        </div>
+
+        <div id="inventario" class = "collapse">
+            Fecha
+            <input class = "date_month" name="inicio_inventario" id="inicio_inventario" value = "2011-01" >
+            <select id="meses" name = "meses">
+                <option value="3">3 Meses</option>
+                <option value="6">6 Meses</option>
+            </select>
+
+
+            <button type="button" name = "graph_inventario" id = "graph_inventario" class="btn btn-primary" >Graficar</button>
+
+
+            <div id="chart_inventario" style="height:450px"></div>
+        </div>
+    </div>
 
 
 
@@ -265,6 +289,7 @@
     <script src="http://www.amcharts.com/lib/3/serial.js"></script>
     <script src="http://www.amcharts.com/lib/3/themes/light.js"></script>
     <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
 
     <script  src="{{url()}}/assets/js/promociones_online.js"></script>
@@ -274,9 +299,11 @@
     <script  src="{{url()}}/assets/js/comparativo_ventas.js"></script>
     <script  src="{{url()}}/assets/js/movimiento_cuentas.js"></script>
     <script  src="{{url()}}/assets/js/movimiento_dptos.js"></script>
+    <script  src="{{url()}}/assets/js/mvto_inventario.js"></script>
     {{--<script  src="{{url()}}/assets/js/grafico.js"></script>--}}
     {{--<script  src="{{url()}}/assets/js/grafico2.js"></script>--}}
     <script  src="{{url()}}/assets/js/datapicker/bootstrap-datapicker.js"></script>
+    <script  src="{{url()}}/assets/DataTables-1.10.10/media/js/jquery.dataTables.min.js"> </script>
 
     <script>
 

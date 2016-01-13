@@ -141,5 +141,24 @@ class Controlador_reportes extends Controller
         return response()->json($dptos);
     }
 
+    public function mvto_inventario (Request $request)
+    {
+        $inicio = $request::input('inicio')."-01" ;
+        $fin= $request::input('fin');
+        $fecha = explode ("-",$fin);
+        $ultimo_dia = $this->getUltimoDiaMes($fecha[0],$fecha[1]);
+        $fin = $fin."-".$ultimo_dia;
+        $productos=  DB::select("SELECT producto.\"ProductAlternateKey\", producto.\"EnglishProductName\" as name FROM \"DimProduct\" as producto
+        WHERE producto.\"ProductAlternateKey\" NOT IN
+        (SELECT producto.\"ProductAlternateKey\"
+        FROM \"FactProductInventory\" as inventario Natural Join  \"DimProduct\" as producto
+          Natural Join \"DimDate\" as fecha
+          where fecha.\"FullDateAlternateKey\" between '$inicio' and '$fin'
+          and inventario.\"UnitsOut\" > 0 )");
+
+        return response()->json($productos);
+    }
+
+
 
 }
