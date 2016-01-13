@@ -64,3 +64,10 @@ Route::get('ventas_vendedores_por_producto_agrupado_rango', 'Controlador_reporte
 Route::get('callcenter_labora_festivos', 'Controlador_reportes_nelson@callcenter_laboral_vs_festivos');
 
 
+Route::get('ventas_productos_categorias_internet', 'Controlador_reportes@ventas_productos_categorias_internet');
+Route::get('ventas_productos_categorias_reseller', 'Controlador_reportes@ventas_productos_categorias_reseller');
+Route::get('llamadas_sumaissues', 'Controlador_reportes@llamadas_sumaissues');
+Route::get('llamadas_sumaordenes', 'Controlador_reportes@llamadas_sumaordenes');
+Route::get('llamadas_sumarespuestas', 'Controlador_reportes@llamadas_sumarespuestas');
+Route::get('llamadas_sumallamadas', 'Controlador_reportes@llamadas_sumallamadas');
+Route::get('mayores_compradores', 'Controlador_reportes@mayores_compradores');

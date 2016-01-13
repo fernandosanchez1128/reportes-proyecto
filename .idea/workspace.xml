@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df630b7-6840-4de2-acc0-f9cb1884f08c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/llamadas_franjas_horarias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/mayores_compradores.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/ventas_productos_categorias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/ventas_productos_categorias_reseller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="reportes-proyecto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,6 +121,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,8 +297,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -758,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,25 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="82.19231">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactInternetSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select prods..FactResellerSales..." />
-            <marker date="1452710326154" expanded="true" signature="-1:-1" placeholder="select \&quot;Fac..FactCallCenter..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,18 +801,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79116946">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactInternetSales..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..FactResellerSales..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select \&quot;Dim..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select cuent..FactFinance..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="select depar..FactFinance..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="SELECT produ..DimProduct..." />
-            <marker date="1452713150356" expanded="true" signature="-1:-1" placeholder="SELECT produ..FactProductInventory..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
