@@ -23,5 +23,43 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
+Route::get('promociones_vendedores', 'Controlador_reportes@mejores_promociones_vendedores');
+Route::get('promociones', 'Controlador_reportes@mejores_promociones_online');
+Route::get('monedas_online', 'Controlador_reportes@monedas_online');
+Route::get('monedas_vendedores', 'Controlador_reportes@monedas_vendedores');
+Route::get('comparativo_ventas', 'Controlador_reportes@comparativo_ventas');
+Route::get('movimiento_cuentas', 'Controlador_reportes@movimiento_cuentas');
+Route::get('movimiento_dptos', 'Controlador_reportes@movimiento_dptos');
+Route::get('mvto_inventario', 'Controlador_reportes@mvto_inventario');
+
+Route::get('promociones', 'Controlador_reportes_nelson@ventas_por_promocion');
+Route::get('productos', 'Controlador_reportes_nelson@ventas_por_producto');
+
+
+Route::get('ventas_ano_especifico', 'Controlador_reportes_nelson@ventas_por_ano_especifico');
+Route::get('ventas_ano_especifico_vendedores', 'Controlador_reportes_nelson@ventas_por_ano_especifico_vendedores');
+
+
+Route::get('ventas_mes_especifico', 'Controlador_reportes_nelson@ventas_por_mes_especifico');
+Route::get('ventas_mes_especifico_vendedores', 'Controlador_reportes_nelson@ventas_por_mes_especifico_vendedores');
+
+Route::get('ventas_trimestre_agrupado', 'Controlador_reportes_nelson@ventas_por_trimestre_agrupado');
+Route::get('ventas_trimestre_agrupado_vendedores', 'Controlador_reportes_nelson@ventas_por_trimestre_agrupado_vendedores');
+
+Route::get('ventas_semestre_agrupado', 'Controlador_reportes_nelson@ventas_por_semestre_agrupado');
+Route::get('ventas_semestre_agrupado_vendedores', 'Controlador_reportes_nelson@ventas_por_semestre_agrupado_vendedores');
+
+
+
+Route::get('ventas_internet_por_producto_agrupado_ano', 'Controlador_reportes_nelson@ventas_internet_por_producto_agrupado_ano');
+Route::get('ventas_vendedores_por_producto_agrupado_ano', 'Controlador_reportes_nelson@ventas_vendedores_por_producto_agrupado_ano');
+
+Route::get('ventas_internet_por_producto_agrupado_mes', 'Controlador_reportes_nelson@ventas_internet_por_producto_agrupado_mes');
+Route::get('ventas_vendedores_por_producto_agrupado_mes', 'Controlador_reportes_nelson@ventas_vendedores_por_producto_agrupado_mes');
+
+Route::get('ventas_internet_por_producto_agrupado_rango', 'Controlador_reportes_nelson@ventas_internet_por_producto_agrupado_rango');
+Route::get('ventas_vendedores_por_producto_agrupado_rango', 'Controlador_reportes_nelson@ventas_vendedores_por_producto_agrupado_rango');
+
+Route::get('callcenter_labora_festivos', 'Controlador_reportes_nelson@callcenter_laboral_vs_festivos');
 
 
