@@ -6,7 +6,7 @@
 @stop
 @section ('content')
 
-<h1 class="page-header"> Comparativo de promociones </h1>
+<h1 class="page-header"> Comparativo de promociones por volumen </h1>
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -81,8 +81,82 @@
             </div>
         </div>
     </div>
+    <h1 class="page-header"> Total de ventas por países </h1>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#paises_online">Ventas online</a>
+            </h2>
+        </div>
+        <div id="paises_online" class = "collapse">
+            Desde
+            <input class = "date_month" name="inicio_pais" id="inicio_pais" value = "2010-10-01" >
 
-    @stop
+            hasta
+            <input  class = "date_month" name="fin_pais" id="fin_pais" value = "2014-01-01">
+
+
+            <button type="button" name = "graph_pais" id = "graph_pais" class="btn btn-primary" >Graficar</button>
+
+
+            <div id="chartpais" style="height:400px"></div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#paises_reseller">Ventas por vendedores</a>
+            </h2>
+        </div>
+        <div id="paises_reseller" class = "collapse">
+            Desde
+            <input  class = "date" name="inicio_pais2" id="inicio_pais2" value = "2010-10-01" >
+
+            hasta
+            <input class = "date" name="fin_pais2" id="fin_pais2" value = "2014-01-01">
+
+
+            <button type="button" name = "graph_pais2" id = "graph_pais2" class="btn btn-primary" >Graficar</button>
+
+
+            <div id="chartpais2" style="height:400px"></div>
+        </div>
+    </div>
+    <h1 class="page-header"> Productos que casi no se venden </h1>
+    <div class="panel panel-default">
+        <div id="productos_no_venden">
+            Desde
+            <input class = "date_month" name="inicio_pnv" id="inicio_pnv" value = "2010-10-01" >
+
+            hasta
+            <input  class = "date_month" name="fin_pnv" id="fin_pnv" value = "2014-01-01">
+
+
+            <button type="button" name = "graph_pnv" id = "graph_pnv" class="btn btn-primary" >Graficar</button>
+
+
+            <div id="chartpnv" style="height:400px"></div>
+        </div>
+    </div>
+
+    <h1 class="page-header"> Presupuesto asignado a cada departamento </h1>
+    <div class="panel panel-default">
+        <div id="presupuesto_dpto">
+            Desde
+            <input class = "date_month" name="inicio_pdpto" id="inicio_pdpto" value = "2010-10-01" >
+
+            hasta
+            <input  class = "date_month" name="fin_pdpto" id="fin_pdpto" value = "2014-01-01">
+
+            <button type="button" name = "graph_pdpto" id = "graph_pdpto" class="btn btn-primary" >Graficar</button>
+
+
+            <div id="chartpdpto" style="height:400px"></div>
+        </div>
+    </div>
+
+@stop
     @section('js')
     @parent
     <script src="http://www.amcharts.com/lib/3/amcharts.js"></script>
@@ -91,7 +165,12 @@
     <script src="https://www.amcharts.com/lib/3/pie.js"></script>
 
 
-    <script  src="{{url()}}/assets/js/promociones_por_volumen.js"></script>
+    <script  src="{{url()}}/assets/js/promociones_por_volumen_online.js"></script>
+    <script  src="{{url()}}/assets/js/promociones_por_volumen_reseller.js"></script>
+    <script  src="{{url()}}/assets/js/paises_reseller.js"></script>
+    <script  src="{{url()}}/assets/js/paises_online.js"></script>
+    <script  src="{{url()}}/assets/js/productos_no_venden.js"></script>
+    <script  src="{{url()}}/assets/js/presupuesto_dpto.js"></script>
     <script  src="{{url()}}/assets/js/datapicker/bootstrap-datapicker.js"></script>
 
     <script>

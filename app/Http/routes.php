@@ -13,7 +13,7 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome_brayan');
 });
 
 Route::controllers([
@@ -23,5 +23,11 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
-Route::get('promocion_venta_volumen', 'Controlador_reportes_brayan@promocion_venta_volumen');
+Route::get('promocion_venta_volumen_online', 'Controlador_reportes_brayan@promocion_venta_volumen_online');
+Route::get('promocion_venta_volumen_reseller', 'Controlador_reportes_brayan@promocion_venta_volumen_reseller');
+Route::get('paises_reseller', 'Controlador_reportes_brayan@paises_reseller');
+Route::get('paises_online', 'Controlador_reportes_brayan@paises_online');
+Route::get('productos_no_venden', 'Controlador_reportes_brayan@productos_no_venden');
+Route::get('presupuesto_dpto', 'Controlador_reportes_brayan@presupuesto_dpto');
+
 
