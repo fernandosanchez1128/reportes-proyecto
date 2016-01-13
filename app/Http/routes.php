@@ -23,5 +23,5 @@ Route::controllers([
 
 Route::get('home', 'Auth\AuthController@modificacion');
 Route::get('test-ajax', 'Auth\AuthController@ajax');
-
+Route::get('ventas_subcategorias', 'Controlador_reportes@ventas_productos_subcategorias');
 
