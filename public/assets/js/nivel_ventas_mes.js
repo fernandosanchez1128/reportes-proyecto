@@ -1,22 +1,28 @@
 /**
+ * Created by USUARIO on 12/01/2016.
+ */
+/**
+ * Created by USUARIO on 12/01/2016.
+ */
+/**
  * Created by USUARIO on 07/01/2016.
  */
-console.log("HOLA");
 $(document).ready(function () {
-    console.log("HOLA1");
-    $('#bt_promocion_vs_producto_internet').click(function () {
-        console.log("HOLA2");
-        $prom_check=document.getElementById("comp_prom_internet").checked;
-        $prod_check=document.getElementById("comp_prod_internet").checked;
-        $metodo_llamado="promociones";
-        $nom_columna="SpanishPromotionName";
-        if (!$prom_check){
+    $('#btn_ventas_por_mes_internet').click(function () {
+        console.log("ventaMes");
+        /**
+         $prom_check=document.getElementById("comp_prom").checked;
+         $prod_check=document.getElementById("comp_prod").checked;
+         $metodo_llamado="promociones";
+         $nom_columna="SpanishPromotionName";
+         if (!$prom_check){
             $metodo_llamado="productos";
-            $nom_columna="EnglishProductSubcategoryName";
+            $nom_columna="EnglishProductName";
         }
-        $.get($metodo_llamado,
+         **/
+        $.get("ventas_mes_especifico",
 
-            {inicio: $(inicio_promo_vs_prod_internet).val(),fin: $(fin_promo_vs_prod_internet).val()}, //datos enviados
+            {inicio: $(ventas_mes).val()}, //datos enviados
 
             function (data) {
 
@@ -25,6 +31,9 @@ $(document).ready(function () {
                 $("#chartdiv").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
                 var colors=    ['#0D8ECF','#FF6600', '#FCD202', '#B0DE09', '#2A0CD0', '#CD0D74', '#CC0000', '#00CC00', '#0000CC', '#DDDDDD', '#999999', '#333333', '#990000']
+                var nombres_meses = [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" ];
+
                 for (i = 0; i < data.length; i++) {
                     if (i >= colors.length) {
                         data[i].color = colors[i-colors.length];
@@ -32,10 +41,11 @@ $(document).ready(function () {
                     else {
                         data[i].color = colors[i];
                     }
+
+                    data[i].MonthNumberOfYear=nombres_meses[data[i].MonthNumberOfYear - 1 ]
                 }
                 console.log(data);
-
-                var chart = AmCharts.makeChart("chart_promociones_vs_producto__internet", {
+                var chart = AmCharts.makeChart("chart_ventas_mes_internet", {
                     "theme": "light",
                     "type": "serial",
                     "startDuration": 2,
@@ -43,7 +53,8 @@ $(document).ready(function () {
                     "valueAxes": [{
                         "position": "left",
                         "axisAlpha":0,
-                        "gridAlpha":0
+                        "gridAlpha":0,
+                        "title": "Cantidad de ventas",
                     }],
                     "graphs": [{
                         "balloonText": "[[category]]: <b>[[value]]</b>",
@@ -61,7 +72,7 @@ $(document).ready(function () {
                         "cursorAlpha": 0,
                         "zoomable": false
                     },
-                    "categoryField": $nom_columna,
+                    "categoryField": "MonthNumberOfYear",
                     "categoryAxis": {
                         "gridPosition": "start",
                         "axisAlpha":0,
@@ -95,24 +106,24 @@ $(document).ready(function () {
     });
 });
 
-
-
-
 $(document).ready(function () {
-    console.log("HOLA1");
-    $('#bt_promocion_vs_producto_vendedores').click(function () {
-        console.log("HOLA2");
-        $prom_check=document.getElementById("comp_prom_vendedores").checked;
-        $prod_check=document.getElementById("comp_prod_vendedores").checked;
-        $metodo_llamado="promociones";
-        $nom_columna="SpanishPromotionName";
-        if (!$prom_check){
+    console.log("VentaMES");
+    $('#btn_ventas_por_mes_vendedores').click(function () {
+        console.log("ventaaño32");
+        console.log($(inicio_ano_ventas).val());
+        /**
+         $prom_check=document.getElementById("comp_prom").checked;
+         $prod_check=document.getElementById("comp_prod").checked;
+         $metodo_llamado="promociones";
+         $nom_columna="SpanishPromotionName";
+         if (!$prom_check){
             $metodo_llamado="productos";
-            $nom_columna="EnglishProductSubcategoryName";
+            $nom_columna="EnglishProductName";
         }
-        $.get($metodo_llamado,
+         **/
+        $.get("ventas_mes_especifico_vendedores",
 
-            {inicio: $(inicio_promo_vs_prod_vendedores).val(),fin: $(fin_promo_vs_prod_vendedores).val()}, //datos enviados
+            {inicio: $(ventas_mes_vendedores).val()}, //datos enviados
 
             function (data) {
 
@@ -121,6 +132,8 @@ $(document).ready(function () {
                 $("#chartdiv").empty();
                 //var text = '{"country":"John Johnson","visits":100,"color":"#FF6600"}';
                 var colors=    ['#0D8ECF','#FF6600', '#FCD202', '#B0DE09', '#2A0CD0', '#CD0D74', '#CC0000', '#00CC00', '#0000CC', '#DDDDDD', '#999999', '#333333', '#990000']
+                var nombres_meses = [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" ];
                 for (i = 0; i < data.length; i++) {
                     if (i >= colors.length) {
                         data[i].color = colors[i-colors.length];
@@ -128,10 +141,11 @@ $(document).ready(function () {
                     else {
                         data[i].color = colors[i];
                     }
+                    data[i].MonthNumberOfYear=nombres_meses[data[i].MonthNumberOfYear - 1 ]
                 }
                 console.log(data);
-
-                var chart = AmCharts.makeChart("chart_promociones_vs_producto__vendedores", {
+                console.log([value]);
+                var chart = AmCharts.makeChart("chart_ventas_mes_vendedores", {
                     "theme": "light",
                     "type": "serial",
                     "startDuration": 2,
@@ -139,7 +153,8 @@ $(document).ready(function () {
                     "valueAxes": [{
                         "position": "left",
                         "axisAlpha":0,
-                        "gridAlpha":0
+                        "gridAlpha":0,
+                        "title": "Cantidad de ventas",
                     }],
                     "graphs": [{
                         "balloonText": "[[category]]: <b>[[value]]</b>",
@@ -157,7 +172,7 @@ $(document).ready(function () {
                         "cursorAlpha": 0,
                         "zoomable": false
                     },
-                    "categoryField": $nom_columna,
+                    "categoryField": "MonthNumberOfYear",
                     "categoryAxis": {
                         "gridPosition": "start",
                         "axisAlpha":0,
@@ -190,3 +205,4 @@ $(document).ready(function () {
             })
     });
 });
+

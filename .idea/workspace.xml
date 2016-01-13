@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df630b7-6840-4de2-acc0-f9cb1884f08c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/callcenter_festivos_laborales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/nivel_ventas_ano.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/nivel_ventas_mes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/nivel_ventas_semestre.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/nivel_ventas_trimestre.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/ventas_productos_ano.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/ventas_productos_mes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/ventas_productos_rango.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/datapicker/datapicker3.css" afterPath="$PROJECT_DIR$/public/assets/css/datapicker/datapicker3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js" afterPath="$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="reportes-proyecto.iws" />
@@ -38,29 +49,38 @@
       <file leaf-file-name="Controlador_reportes_nelson.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.423077">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="31" column="104" selection-start-line="31" selection-start-column="104" selection-end-line="31" selection-end-column="104" />
               <folding>
                 <element signature="e#6#53#0#PHP" expanded="true" />
                 <element signature="e#86#100#0#PHP" expanded="true" />
-                <marker date="1452582541705" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="1144:1543" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="1144:1588" placeholder="select \&quot;Dim... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="1721:2106" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="2288:2615" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="2803:3172" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="3368:3790" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="3992:4388" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="4590:4942" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="5141:5538" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="5736:6089" placeholder="select &quot;DimD... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="6286:6761" placeholder="select &quot;DimP... FactInternetSales" />
-                <marker date="1452582541705" expanded="true" signature="6977:7244" placeholder="select &quot;Fact... FactCallCenter" />
+                <marker date="1452669199375" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="1144:1572" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="1850:2134" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="1850:2179" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="2474:2803" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="3038:3359" placeholder="select &quot;DimD... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="3038:3404" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="3571:3892" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="4142:4456" placeholder="select &quot;DimD... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="4142:4502" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="4673:4987" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="5235:5552" placeholder="select &quot;DimD... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="5235:6136" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="5766:6083" placeholder="select \&quot;Dim... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="6434:6719" placeholder="select prods... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="6434:6834" placeholder="select prods... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="7052:7452" placeholder="select prods... FactResellerSales" />
+                <marker date="1452669199375" expanded="true" signature="7759:8193" placeholder="select prods... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="8451:8885" placeholder="select prods... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="9190:9618" placeholder="select prods... FactInternetSales" />
+                <marker date="1452669199375" expanded="true" signature="9878:10306" placeholder="select prods... FactResellerSales" />
+                <marker date="1452669199375" expanded="true" signature="10612:10830" placeholder="select \&quot;Fac... FactCallCenter" />
               </folding>
             </state>
           </provider>
@@ -69,8 +89,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0384617">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="21" />
+            <state vertical-scroll-proportion="-28.76923">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -79,76 +99,23 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53184164">
-              <caret line="684" column="43" selection-start-line="684" selection-start-column="43" selection-end-line="684" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.43889844">
+              <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
               <folding>
-                <element signature="e#5664#5686#0#HTML" expanded="true" />
-                <element signature="e#6130#6150#0#HTML" expanded="true" />
-                <element signature="e#6246#6270#0#HTML" expanded="true" />
-                <element signature="e#6314#6367#0#HTML" expanded="true" />
-                <element signature="e#6640#6693#0#HTML" expanded="true" />
-                <element signature="e#6954#7007#0#HTML" expanded="true" />
-                <element signature="e#7798#7820#0#HTML" expanded="true" />
-                <element signature="e#8226#8246#0#HTML" expanded="true" />
-                <element signature="e#8342#8366#0#HTML" expanded="true" />
-                <element signature="e#8410#8463#0#HTML" expanded="true" />
-                <element signature="e#8736#8789#0#HTML" expanded="true" />
-                <element signature="e#9050#9103#0#HTML" expanded="true" />
-                <element signature="e#10002#10022#0#HTML" expanded="true" />
-                <element signature="e#10118#10142#0#HTML" expanded="true" />
-                <element signature="e#10186#10239#0#HTML" expanded="true" />
-                <element signature="e#10512#10565#0#HTML" expanded="true" />
-                <element signature="e#10826#10879#0#HTML" expanded="true" />
-                <element signature="e#11636#11656#0#HTML" expanded="true" />
-                <element signature="e#11752#11776#0#HTML" expanded="true" />
-                <element signature="e#11820#11873#0#HTML" expanded="true" />
-                <element signature="e#12146#12199#0#HTML" expanded="true" />
-                <element signature="e#12460#12513#0#HTML" expanded="true" />
-                <element signature="e#13526#13546#0#HTML" expanded="true" />
-                <element signature="e#13642#13666#0#HTML" expanded="true" />
-                <element signature="e#13710#13763#0#HTML" expanded="true" />
-                <element signature="e#14036#14089#0#HTML" expanded="true" />
-                <element signature="e#14350#14403#0#HTML" expanded="true" />
-                <element signature="e#15274#15294#0#HTML" expanded="true" />
-                <element signature="e#15390#15414#0#HTML" expanded="true" />
-                <element signature="e#15458#15511#0#HTML" expanded="true" />
-                <element signature="e#15784#15837#0#HTML" expanded="true" />
-                <element signature="e#16098#16151#0#HTML" expanded="true" />
-                <element signature="e#17231#17251#0#HTML" expanded="true" />
-                <element signature="e#17347#17371#0#HTML" expanded="true" />
-                <element signature="e#17415#17468#0#HTML" expanded="true" />
-                <element signature="e#17741#17794#0#HTML" expanded="true" />
-                <element signature="e#18055#18108#0#HTML" expanded="true" />
-                <element signature="e#19039#19059#0#HTML" expanded="true" />
-                <element signature="e#19155#19179#0#HTML" expanded="true" />
-                <element signature="e#19223#19276#0#HTML" expanded="true" />
-                <element signature="e#19549#19602#0#HTML" expanded="true" />
-                <element signature="e#19863#19916#0#HTML" expanded="true" />
-                <element signature="e#20991#21011#0#HTML" expanded="true" />
-                <element signature="e#21107#21131#0#HTML" expanded="true" />
-                <element signature="e#21175#21228#0#HTML" expanded="true" />
-                <element signature="e#21501#21554#0#HTML" expanded="true" />
-                <element signature="e#21815#21868#0#HTML" expanded="true" />
-                <element signature="e#22794#22814#0#HTML" expanded="true" />
-                <element signature="e#22910#22934#0#HTML" expanded="true" />
-                <element signature="e#22978#23031#0#HTML" expanded="true" />
-                <element signature="e#23304#23357#0#HTML" expanded="true" />
-                <element signature="e#23618#23671#0#HTML" expanded="true" />
-                <element signature="e#24805#24825#0#HTML" expanded="true" />
-                <element signature="e#24921#24945#0#HTML" expanded="true" />
-                <element signature="e#24989#25042#0#HTML" expanded="true" />
-                <element signature="e#25315#25368#0#HTML" expanded="true" />
-                <element signature="e#25629#25682#0#HTML" expanded="true" />
-                <element signature="e#26656#26676#0#HTML" expanded="true" />
-                <element signature="e#26772#26796#0#HTML" expanded="true" />
-                <element signature="e#26840#26893#0#HTML" expanded="true" />
-                <element signature="e#27166#27219#0#HTML" expanded="true" />
-                <element signature="e#27480#27533#0#HTML" expanded="true" />
-                <element signature="e#28667#28687#0#HTML" expanded="true" />
-                <element signature="e#28783#28807#0#HTML" expanded="true" />
-                <element signature="e#28851#28904#0#HTML" expanded="true" />
-                <element signature="e#29177#29230#0#HTML" expanded="true" />
-                <element signature="e#29491#29544#0#HTML" expanded="true" />
+                <element signature="e#21531#21551#0#HTML" expanded="true" />
+                <element signature="e#21647#21671#0#HTML" expanded="true" />
+                <element signature="e#21715#21768#0#HTML" expanded="true" />
+                <element signature="e#22041#22094#0#HTML" expanded="true" />
+                <element signature="e#22355#22408#0#HTML" expanded="true" />
+                <element signature="e#23474#23494#0#HTML" expanded="true" />
+                <element signature="e#25632#25652#0#HTML" expanded="true" />
+                <element signature="e#27962#27982#0#HTML" expanded="true" />
+                <element signature="e#28086#28110#0#HTML" expanded="true" />
+                <element signature="e#28158#28211#0#HTML" expanded="true" />
+                <element signature="e#28500#28553#0#HTML" expanded="true" />
+                <element signature="e#28830#28883#0#HTML" expanded="true" />
+                <element signature="e#29950#29970#0#HTML" expanded="true" />
+                <element signature="e#32133#32153#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="34" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -184,12 +151,24 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Usuario.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/vendor/archivo.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/datapicker/datapicker3.css" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/nivel_ventas_ano.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/nivel_ventas_mes.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/nivel_ventas_trimestre.js" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/nivel_ventas_semestre.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/ventas_productos_ano.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/ventas_productos_mes.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/ventas_producto_mes.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/ventas_productos_rango.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/callcenter_festivos_laborales.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/subproductos_mas_vendidos.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php" />
         <option value="$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
@@ -241,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -325,90 +303,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportes-proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,6 +316,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\reportes-proyecto\public\assets\css\datapicker" />
+      <recent name="C:\xampp\htdocs\reportes-proyecto\public\assets\dist\css" />
       <recent name="C:\xampp\htdocs\reportes-proyecto\public\assets" />
     </key>
   </component>
@@ -470,28 +369,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1727672" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -518,141 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#53#0#PHP" expanded="true" />
-            <element signature="e#86#100#0#PHP" expanded="true" />
-            <marker date="1452582541705" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1543" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1588" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1721:2106" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2288:2615" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2803:3172" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3368:3790" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3992:4388" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="4590:4942" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5141:5538" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5736:6089" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6286:6761" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6977:7244" placeholder="select &quot;Fact... FactCallCenter" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#53#0#PHP" expanded="true" />
-            <element signature="e#86#100#0#PHP" expanded="true" />
-            <marker date="1452582541705" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1543" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1588" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1721:2106" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2288:2615" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2803:3172" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3368:3790" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3992:4388" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="4590:4942" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5141:5538" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5736:6089" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6286:6761" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6977:7244" placeholder="select &quot;Fact... FactCallCenter" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -878,140 +642,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3666093">
-          <caret line="87" column="31" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029259896">
           <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/datapicker/datapicker3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-112.46154">
+          <caret line="172" column="2" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29259896">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/nivel_ventas_ano.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6919274">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/nivel_ventas_mes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <caret line="121" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#89#0" expanded="false" />
+            <element signature="e#90#134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/nivel_ventas_trimestre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6326194">
+          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/nivel_ventas_semestre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0384617">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.36408567">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/datapicker/bootstrap-datapicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-42.540363">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/ventas_productos_mes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/ventas_productos_ano.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16803955">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/ventas_productos_rango.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5881384">
+          <caret line="94" column="3" selection-start-line="3" selection-start-column="0" selection-end-line="94" selection-end-column="3" />
+          <folding>
+            <element signature="e#45#89#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/callcenter_festivos_laborales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#45#89#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/promociones_mas_vendidas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controlador_reportes_nelson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.423077">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="31" column="104" selection-start-line="31" selection-start-column="104" selection-end-line="31" selection-end-column="104" />
           <folding>
             <element signature="e#6#53#0#PHP" expanded="true" />
             <element signature="e#86#100#0#PHP" expanded="true" />
-            <marker date="1452582541705" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1543" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1144:1588" placeholder="select \&quot;Dim... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="1721:2106" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2288:2615" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="2803:3172" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3368:3790" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="3992:4388" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="4590:4942" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5141:5538" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="5736:6089" placeholder="select &quot;DimD... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6286:6761" placeholder="select &quot;DimP... FactInternetSales" />
-            <marker date="1452582541705" expanded="true" signature="6977:7244" placeholder="select &quot;Fact... FactCallCenter" />
+            <marker date="1452669199375" expanded="true" signature="415:715" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="415:724" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="415:749" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="415:775" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="415:906" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="783:906" placeholder="select &quot;DimP... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="1144:1572" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="1850:2134" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="1850:2179" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="2474:2803" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="3038:3359" placeholder="select &quot;DimD... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="3038:3404" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="3571:3892" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="4142:4456" placeholder="select &quot;DimD... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="4142:4502" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="4673:4987" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="5235:5552" placeholder="select &quot;DimD... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="5235:6136" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="5766:6083" placeholder="select \&quot;Dim... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="6434:6719" placeholder="select prods... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="6434:6834" placeholder="select prods... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="7052:7452" placeholder="select prods... FactResellerSales" />
+            <marker date="1452669199375" expanded="true" signature="7759:8193" placeholder="select prods... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="8451:8885" placeholder="select prods... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="9190:9618" placeholder="select prods... FactInternetSales" />
+            <marker date="1452669199375" expanded="true" signature="9878:10306" placeholder="select prods... FactResellerSales" />
+            <marker date="1452669199375" expanded="true" signature="10612:10830" placeholder="select \&quot;Fac... FactCallCenter" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.76923">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53184164">
-          <caret line="684" column="43" selection-start-line="684" selection-start-column="43" selection-end-line="684" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.43889844">
+          <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
           <folding>
-            <element signature="e#5664#5686#0#HTML" expanded="true" />
-            <element signature="e#6130#6150#0#HTML" expanded="true" />
-            <element signature="e#6246#6270#0#HTML" expanded="true" />
-            <element signature="e#6314#6367#0#HTML" expanded="true" />
-            <element signature="e#6640#6693#0#HTML" expanded="true" />
-            <element signature="e#6954#7007#0#HTML" expanded="true" />
-            <element signature="e#7798#7820#0#HTML" expanded="true" />
-            <element signature="e#8226#8246#0#HTML" expanded="true" />
-            <element signature="e#8342#8366#0#HTML" expanded="true" />
-            <element signature="e#8410#8463#0#HTML" expanded="true" />
-            <element signature="e#8736#8789#0#HTML" expanded="true" />
-            <element signature="e#9050#9103#0#HTML" expanded="true" />
-            <element signature="e#10002#10022#0#HTML" expanded="true" />
-            <element signature="e#10118#10142#0#HTML" expanded="true" />
-            <element signature="e#10186#10239#0#HTML" expanded="true" />
-            <element signature="e#10512#10565#0#HTML" expanded="true" />
-            <element signature="e#10826#10879#0#HTML" expanded="true" />
-            <element signature="e#11636#11656#0#HTML" expanded="true" />
-            <element signature="e#11752#11776#0#HTML" expanded="true" />
-            <element signature="e#11820#11873#0#HTML" expanded="true" />
-            <element signature="e#12146#12199#0#HTML" expanded="true" />
-            <element signature="e#12460#12513#0#HTML" expanded="true" />
-            <element signature="e#13526#13546#0#HTML" expanded="true" />
-            <element signature="e#13642#13666#0#HTML" expanded="true" />
-            <element signature="e#13710#13763#0#HTML" expanded="true" />
-            <element signature="e#14036#14089#0#HTML" expanded="true" />
-            <element signature="e#14350#14403#0#HTML" expanded="true" />
-            <element signature="e#15274#15294#0#HTML" expanded="true" />
-            <element signature="e#15390#15414#0#HTML" expanded="true" />
-            <element signature="e#15458#15511#0#HTML" expanded="true" />
-            <element signature="e#15784#15837#0#HTML" expanded="true" />
-            <element signature="e#16098#16151#0#HTML" expanded="true" />
-            <element signature="e#17231#17251#0#HTML" expanded="true" />
-            <element signature="e#17347#17371#0#HTML" expanded="true" />
-            <element signature="e#17415#17468#0#HTML" expanded="true" />
-            <element signature="e#17741#17794#0#HTML" expanded="true" />
-            <element signature="e#18055#18108#0#HTML" expanded="true" />
-            <element signature="e#19039#19059#0#HTML" expanded="true" />
-            <element signature="e#19155#19179#0#HTML" expanded="true" />
-            <element signature="e#19223#19276#0#HTML" expanded="true" />
-            <element signature="e#19549#19602#0#HTML" expanded="true" />
-            <element signature="e#19863#19916#0#HTML" expanded="true" />
-            <element signature="e#20991#21011#0#HTML" expanded="true" />
-            <element signature="e#21107#21131#0#HTML" expanded="true" />
-            <element signature="e#21175#21228#0#HTML" expanded="true" />
-            <element signature="e#21501#21554#0#HTML" expanded="true" />
-            <element signature="e#21815#21868#0#HTML" expanded="true" />
-            <element signature="e#22794#22814#0#HTML" expanded="true" />
-            <element signature="e#22910#22934#0#HTML" expanded="true" />
-            <element signature="e#22978#23031#0#HTML" expanded="true" />
-            <element signature="e#23304#23357#0#HTML" expanded="true" />
-            <element signature="e#23618#23671#0#HTML" expanded="true" />
-            <element signature="e#24805#24825#0#HTML" expanded="true" />
-            <element signature="e#24921#24945#0#HTML" expanded="true" />
-            <element signature="e#24989#25042#0#HTML" expanded="true" />
-            <element signature="e#25315#25368#0#HTML" expanded="true" />
-            <element signature="e#25629#25682#0#HTML" expanded="true" />
-            <element signature="e#26656#26676#0#HTML" expanded="true" />
-            <element signature="e#26772#26796#0#HTML" expanded="true" />
-            <element signature="e#26840#26893#0#HTML" expanded="true" />
-            <element signature="e#27166#27219#0#HTML" expanded="true" />
-            <element signature="e#27480#27533#0#HTML" expanded="true" />
-            <element signature="e#28667#28687#0#HTML" expanded="true" />
-            <element signature="e#28783#28807#0#HTML" expanded="true" />
-            <element signature="e#28851#28904#0#HTML" expanded="true" />
-            <element signature="e#29177#29230#0#HTML" expanded="true" />
-            <element signature="e#29491#29544#0#HTML" expanded="true" />
+            <element signature="e#21531#21551#0#HTML" expanded="true" />
+            <element signature="e#21647#21671#0#HTML" expanded="true" />
+            <element signature="e#21715#21768#0#HTML" expanded="true" />
+            <element signature="e#22041#22094#0#HTML" expanded="true" />
+            <element signature="e#22355#22408#0#HTML" expanded="true" />
+            <element signature="e#23474#23494#0#HTML" expanded="true" />
+            <element signature="e#25632#25652#0#HTML" expanded="true" />
+            <element signature="e#27962#27982#0#HTML" expanded="true" />
+            <element signature="e#28086#28110#0#HTML" expanded="true" />
+            <element signature="e#28158#28211#0#HTML" expanded="true" />
+            <element signature="e#28500#28553#0#HTML" expanded="true" />
+            <element signature="e#28830#28883#0#HTML" expanded="true" />
+            <element signature="e#29950#29970#0#HTML" expanded="true" />
+            <element signature="e#32133#32153#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
