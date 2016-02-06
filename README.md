@@ -1,3 +1,9 @@
+#Entrega final proyecto KDD
+Fernando Sanchez - 1225394
+Nelson Portilla - 1226934
+Brayan Rodriguez - 1225796
+Juan Diego Prado - 1226218
+
 # reportes-proyecto
 Proyecto de KDD entrega 3
 -El proyecto se realizará usando el framework laravel 5.0
